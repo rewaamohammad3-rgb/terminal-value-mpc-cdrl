@@ -57,5 +57,8 @@ The weather data are from the Photovoltaic Geographical Information System (PVGI
 Commission Joint Research Centre, https://re.jrc.ec.europa.eu/pvg_tools/en/ (PVGIS © European Union,
 2001–2026). Reuse is authorised provided the source is acknowledged.
 
-No licence has been chosen yet for the code and results in this repository; until one is added, all
-rights are reserved by the authors.
+## Licence
+
+The code and result files in this repository are released under the MIT License (see `LICENSE`).
+The PVGIS weather file in `data/weather/` is not covered by that licence; it remains subject to the
+PVGIS terms above.
