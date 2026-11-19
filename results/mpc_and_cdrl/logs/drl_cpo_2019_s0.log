@@ -1,0 +1,78 @@
+  agents: no guard_band.json, the cost limit stays at the literal 0.00376
+  MPC advisor network, trained on the MPC's day-ahead schedules of [2013, 2014, 2015, 2016]
+    advisor epoch   0  MSE vs MPC schedule 0.0995
+    advisor epoch 100  MSE vs MPC schedule 0.0053
+    advisor epoch 200  MSE vs MPC schedule 0.0039
+    advisor epoch 300  MSE vs MPC schedule 0.0035
+    advisor epoch 399  MSE vs MPC schedule 0.0026
+  behaviour cloning on the MPC's day-ahead schedules of [2013, 2014, 2015, 2016]
+    BC epoch   0  action MSE 0.1251
+    BC epoch  50  action MSE 0.0035
+    BC epoch 100  action MSE 0.0027
+    BC epoch 150  action MSE 0.0022
+    BC epoch 200  action MSE 0.0020
+    BC epoch 250  action MSE 0.0019
+    BC epoch 299  action MSE 0.0017
+    ep   0  (imitation policy)  val deficit 25.913 %
+    critic warm-up: 5 training years, policy held at the imitation policy
+    ep   5  train   -5468.6  val deficit 25.913 %  (best 25.913 @ ep 5)
+    ep  10  train   -4731.7  val deficit 25.913 %  (best 25.913 @ ep 5)
+    ep  15  train   -4349.0  val deficit 25.913 %  (best 25.913 @ ep 5)
+    ep  20  train   -5028.4  val deficit 25.913 %  (best 25.913 @ ep 5)
+    ep  25  train   -4338.6  val deficit 25.912 %  (best 25.912 @ ep 25)
+    ep  30  train   -4246.4  val deficit 25.912 %  (best 25.912 @ ep 25)
+    ep  35  train   -4973.8  val deficit 25.912 %  (best 25.912 @ ep 25)
+    ep  40  train   -5211.1  val deficit 25.912 %  (best 25.912 @ ep 25)
+    ep  45  train   -5253.4  val deficit 25.913 %  (best 25.912 @ ep 25)
+    ep  50  train   -4902.0  val deficit 25.913 %  (best 25.912 @ ep 25)
+    ep  55  train   -5206.0  val deficit 25.914 %  (best 25.912 @ ep 25)
+    ep  60  train   -4723.2  val deficit 25.913 %  (best 25.912 @ ep 25)
+    ep  65  train   -5470.9  val deficit 25.913 %  (best 25.912 @ ep 25)
+    ep  70  train   -4735.8  val deficit 25.911 %  (best 25.911 @ ep 70)
+    ep  75  train   -4357.5  val deficit 25.912 %  (best 25.911 @ ep 70)
+    ep  80  train   -5030.9  val deficit 25.912 %  (best 25.911 @ ep 70)
+    ep  85  train   -4341.9  val deficit 25.912 %  (best 25.911 @ ep 70)
+    ep  90  train   -4245.1  val deficit 25.912 %  (best 25.911 @ ep 70)
+    ep  95  train   -4974.6  val deficit 25.910 %  (best 25.910 @ ep 95)
+    ep 100  train   -5212.0  val deficit 25.910 %  (best 25.910 @ ep 95)
+    ep 105  train   -5254.6  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 110  train   -4903.3  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 115  train   -5202.0  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 120  train   -4717.0  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 125  train   -5465.9  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 130  train   -4729.3  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 135  train   -4352.3  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 140  train   -5027.0  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 145  train   -4343.3  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 150  train   -4253.9  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 155  train   -4977.6  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 160  train   -5209.5  val deficit 25.914 %  (best 25.910 @ ep 95)
+    ep 165  train   -5248.5  val deficit 25.915 %  (best 25.910 @ ep 95)
+    ep 170  train   -4904.7  val deficit 25.915 %  (best 25.910 @ ep 95)
+    ep 175  train   -5209.1  val deficit 25.915 %  (best 25.910 @ ep 95)
+    ep 180  train   -4724.4  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 185  train   -5465.4  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 190  train   -4731.2  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 195  train   -4352.1  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 200  train   -5027.2  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 205  train   -4339.1  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 210  train   -4254.1  val deficit 25.911 %  (best 25.910 @ ep 95)
+    ep 215  train   -4971.9  val deficit 25.910 %  (best 25.910 @ ep 215)
+    ep 220  train   -5210.1  val deficit 25.910 %  (best 25.910 @ ep 215)
+    ep 225  train   -5252.2  val deficit 25.911 %  (best 25.910 @ ep 215)
+    ep 230  train   -4908.7  val deficit 25.911 %  (best 25.910 @ ep 215)
+    ep 235  train   -5209.0  val deficit 25.911 %  (best 25.910 @ ep 215)
+    ep 240  train   -4726.1  val deficit 25.912 %  (best 25.910 @ ep 215)
+    ep 245  train   -5464.4  val deficit 25.912 %  (best 25.910 @ ep 215)
+    ep 250  train   -4729.7  val deficit 25.913 %  (best 25.910 @ ep 215)
+    ep 255  train   -4358.4  val deficit 25.913 %  (best 25.910 @ ep 215)
+    ep 260  train   -5030.4  val deficit 25.913 %  (best 25.910 @ ep 215)
+    ep 265  train   -4341.0  val deficit 25.909 %  (best 25.909 @ ep 265)
+    ep 270  train   -4252.2  val deficit 25.909 %  (best 25.909 @ ep 265)
+    ep 275  train   -4965.9  val deficit 25.908 %  (best 25.908 @ ep 275)
+    ep 280  train   -5216.2  val deficit 25.908 %  (best 25.908 @ ep 275)
+    ep 285  train   -5253.5  val deficit 25.909 %  (best 25.908 @ ep 275)
+    ep 290  train   -4912.0  val deficit 25.909 %  (best 25.908 @ ep 275)
+    ep 295  train   -5203.9  val deficit 25.909 %  (best 25.908 @ ep 275)
+    ep 300  train   -4730.5  val deficit 25.907 %  (best 25.907 @ ep 300)
+DRL cpo_2019_s0: deficit 31.223 %, exact compliance 100.00 %, 7 min

@@ -1,0 +1,4 @@
+method,days,days DRL better (less unserved),days DRL worse,days equal (within 1 kWh),"mean daily difference, MWh (DRL - MPC)","largest DRL gain, MWh","largest DRL loss, MWh"
+MPC-imitation,1826,478,707,641,0.173,11.577,17.36
+CPO,1826,497,682,647,0.174,11.589,17.36
+MPC+CPO values,1826,369,331,1126,-0.047,14.271,3.444

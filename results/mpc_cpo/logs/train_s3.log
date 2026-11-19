@@ -1,0 +1,21 @@
+  agents: no guard_band.json, the cost limit stays at the literal 0.00376
+  ep   0  (plain MPC, default storage values)  val deficit 25.544 %
+  ep   5  train 2005  deficit 23.717 %  w_H 1.07  w_B 1.08  |  val deficit 25.572 %  (best 25.544 @ ep 0)  4 min
+  ep  10  train 2010  deficit 28.479 %  w_H 1.03  w_B 1.15  |  val deficit 25.608 %  (best 25.544 @ ep 0)  7 min
+  ep  15  train 2008  deficit 22.030 %  w_H 1.05  w_B 1.15  |  val deficit 25.575 %  (best 25.544 @ ep 0)  10 min
+  ep  20  train 2006  deficit 22.319 %  w_H 1.00  w_B 1.20  |  val deficit 25.579 %  (best 25.544 @ ep 0)  13 min
+  ep  25  train 2011  deficit 21.448 %  w_H 1.04  w_B 1.17  |  val deficit 25.566 %  (best 25.544 @ ep 0)  16 min
+  ep  30  train 2016  deficit 25.387 %  w_H 1.07  w_B 1.23  |  val deficit 25.590 %  (best 25.544 @ ep 0)  19 min
+  ep  35  train 2009  deficit 27.433 %  w_H 0.98  w_B 1.24  |  val deficit 25.560 %  (best 25.544 @ ep 0)  22 min
+  ep  40  train 2015  deficit 24.104 %  w_H 0.97  w_B 1.27  |  val deficit 25.606 %  (best 25.544 @ ep 0)  25 min
+  ep  45  train 2006  deficit 22.216 %  w_H 0.98  w_B 1.32  |  val deficit 25.613 %  (best 25.544 @ ep 0)  28 min
+  ep  50  train 2006  deficit 22.111 %  w_H 0.96  w_B 1.33  |  val deficit 25.615 %  (best 25.544 @ ep 0)  31 min
+  ep  55  train 2014  deficit 27.413 %  w_H 0.95  w_B 1.37  |  val deficit 25.589 %  (best 25.544 @ ep 0)  34 min
+  ep  60  train 2009  deficit 27.422 %  w_H 0.97  w_B 1.36  |  val deficit 25.615 %  (best 25.544 @ ep 0)  37 min
+training done: best validation 25.544 % at episode 0 (episode 0 = plain MPC 25.544 %)
+TEST 2019 s3: MPC nan % (main run 30.920 %) -> MPC+DRL values 30.920 %, compliance 100.00 %
+TEST 2020 s3: MPC nan % (main run 30.405 %) -> MPC+DRL values 30.405 %, compliance 100.00 %
+TEST 2021 s3: MPC nan % (main run 23.441 %) -> MPC+DRL values 23.441 %, compliance 100.00 %
+TEST 2022 s3: MPC nan % (main run 24.598 %) -> MPC+DRL values 24.598 %, compliance 100.00 %
+TEST 2023 s3: MPC nan % (main run 31.479 %) -> MPC+DRL values 31.479 %, compliance 100.00 %
+done in 39 min

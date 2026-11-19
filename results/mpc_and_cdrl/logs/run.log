@@ -1,0 +1,74 @@
+17:07:14  run my_new_scenario9_MIQP_DRL  stages mpc,demos,drl,plots  workers 4
+17:07:14  MPC: 5 year(s) to solve (about 3-6 min each)
+17:07:14    started  MPC 2019
+17:07:14    started  MPC 2020
+17:07:14    started  MPC 2021
+17:07:14    started  MPC 2022
+17:07:40    finished MPC 2019 (0.4 min)  MPC 2019: deficit 30.920 %, exact compliance 100.00 % (0 over, 0 under), V 0.9553..1.0491 pu, 0.3 min
+17:07:40    started  MPC 2023
+17:07:42    finished MPC 2020 (0.5 min)  MPC 2020: deficit 30.405 %, exact compliance 100.00 % (0 over, 0 under), V 0.9553..1.0489 pu, 0.3 min
+17:07:44    finished MPC 2022 (0.5 min)  MPC 2022: deficit 24.598 %, exact compliance 100.00 % (0 over, 0 under), V 0.9535..1.0482 pu, 0.3 min
+17:07:50    finished MPC 2021 (0.6 min)  MPC 2021: deficit 23.441 %, exact compliance 100.00 % (0 over, 0 under), V 0.9511..1.0491 pu, 0.4 min
+17:08:00    finished MPC 2023 (0.3 min)  MPC 2023: deficit 31.479 %, exact compliance 100.00 % (0 over, 0 under), V 0.9591..1.0492 pu, 0.2 min
+17:08:00  MPC demonstrations for imitation: 4 year(s) (about 0.5 min each)
+17:08:00    started  demos 2013
+17:08:00    started  demos 2014
+17:08:00    started  demos 2015
+17:08:00    started  demos 2016
+17:08:08    finished demos 2013 (0.1 min)  demos 2013: 365 days, MPC deficit on the DRL plant 25.175 %, 0.1 min
+17:08:08    finished demos 2014 (0.1 min)  demos 2014: 365 days, MPC deficit on the DRL plant 27.450 %, 0.1 min
+17:08:08    finished demos 2015 (0.1 min)  demos 2015: 365 days, MPC deficit on the DRL plant 24.160 %, 0.1 min
+17:08:08    finished demos 2016 (0.1 min)  demos 2016: 366 days, MPC deficit on the DRL plant 25.253 %, 0.1 min
+17:08:08  DRL: 25 cell(s) to train, 4 at a time
+17:08:08    started  DRL il_2019_s0
+17:08:08    started  DRL il_2020_s0
+17:08:08    started  DRL il_2021_s0
+17:08:09    started  DRL il_2022_s0
+17:08:53    finished DRL il_2019_s0 (0.7 min)  DRL il_2019_s0: deficit 31.221 %, exact compliance 100.00 %, 1 min
+17:08:53    finished DRL il_2020_s0 (0.7 min)  DRL il_2020_s0: deficit 30.689 %, exact compliance 100.00 %, 1 min
+17:08:53    finished DRL il_2021_s0 (0.7 min)  DRL il_2021_s0: deficit 23.856 %, exact compliance 99.99 %, 1 min
+17:08:53    finished DRL il_2022_s0 (0.7 min)  DRL il_2022_s0: deficit 24.924 %, exact compliance 100.00 %, 1 min
+17:08:53    started  DRL il_2023_s0
+17:08:53    started  DRL fpppo_2019_s0
+17:08:53    started  DRL fpppo_2020_s0
+17:08:53    started  DRL fpppo_2021_s0
+17:09:37    finished DRL il_2023_s0 (0.7 min)  DRL il_2023_s0: deficit 31.809 %, exact compliance 100.00 %, 1 min
+17:09:37    started  DRL fpppo_2022_s0
+17:15:03    finished DRL fpppo_2019_s0 (6.2 min)  DRL fpppo_2019_s0: deficit 31.262 %, exact compliance 100.00 %, 6 min
+17:15:03    finished DRL fpppo_2020_s0 (6.2 min)  DRL fpppo_2020_s0: deficit 30.709 %, exact compliance 100.00 %, 6 min
+17:15:03    finished DRL fpppo_2021_s0 (6.2 min)  DRL fpppo_2021_s0: deficit 23.861 %, exact compliance 99.99 %, 6 min
+17:15:03    started  DRL fpppo_2023_s0
+17:15:03    started  DRL pdppo_2019_s0
+17:15:03    started  DRL pdppo_2020_s0
+17:15:47    finished DRL fpppo_2022_s0 (6.2 min)  DRL fpppo_2022_s0: deficit 24.939 %, exact compliance 100.00 %, 6 min
+17:15:47    started  DRL pdppo_2021_s0
+17:21:31    finished DRL fpppo_2023_s0 (6.5 min)  DRL fpppo_2023_s0: deficit 31.809 %, exact compliance 100.00 %, 6 min
+17:21:31    started  DRL pdppo_2022_s0
+17:21:35    finished DRL pdppo_2019_s0 (6.5 min)  DRL pdppo_2019_s0: deficit 31.260 %, exact compliance 100.00 %, 7 min
+17:21:35    started  DRL pdppo_2023_s0
+17:21:37    finished DRL pdppo_2020_s0 (6.6 min)  DRL pdppo_2020_s0: deficit 30.709 %, exact compliance 100.00 %, 7 min
+17:21:37    started  DRL focops_2019_s0
+17:22:15    finished DRL pdppo_2021_s0 (6.5 min)  DRL pdppo_2021_s0: deficit 23.866 %, exact compliance 99.99 %, 6 min
+17:22:15    started  DRL focops_2020_s0
+17:28:15    finished DRL pdppo_2022_s0 (6.7 min)  DRL pdppo_2022_s0: deficit 24.938 %, exact compliance 100.00 %, 7 min
+17:28:15    finished DRL pdppo_2023_s0 (6.7 min)  DRL pdppo_2023_s0: deficit 31.811 %, exact compliance 100.00 %, 7 min
+17:28:15    started  DRL focops_2021_s0
+17:28:15    started  DRL focops_2022_s0
+17:28:37    finished DRL focops_2019_s0 (7.0 min)  DRL focops_2019_s0: deficit 31.240 %, exact compliance 100.00 %, 7 min
+17:28:37    started  DRL focops_2023_s0
+17:29:13    finished DRL focops_2020_s0 (7.0 min)  DRL focops_2020_s0: deficit 30.707 %, exact compliance 100.00 %, 7 min
+17:29:13    started  DRL cpo_2019_s0
+17:35:13    finished DRL focops_2021_s0 (7.0 min)  DRL focops_2021_s0: deficit 23.864 %, exact compliance 99.99 %, 7 min
+17:35:13    finished DRL focops_2022_s0 (7.0 min)  DRL focops_2022_s0: deficit 24.935 %, exact compliance 100.00 %, 7 min
+17:35:13    started  DRL cpo_2020_s0
+17:35:13    started  DRL cpo_2021_s0
+17:35:37    finished DRL focops_2023_s0 (7.0 min)  DRL focops_2023_s0: deficit 31.801 %, exact compliance 100.00 %, 7 min
+17:35:37    started  DRL cpo_2022_s0
+17:36:31    finished DRL cpo_2019_s0 (7.3 min)  DRL cpo_2019_s0: deficit 31.223 %, exact compliance 100.00 %, 7 min
+17:36:31    started  DRL cpo_2023_s0
+17:42:33    finished DRL cpo_2020_s0 (7.3 min)  DRL cpo_2020_s0: deficit 30.693 %, exact compliance 100.00 %, 7 min
+17:42:33    finished DRL cpo_2021_s0 (7.3 min)  DRL cpo_2021_s0: deficit 23.858 %, exact compliance 99.99 %, 7 min
+17:42:49    finished DRL cpo_2022_s0 (7.2 min)  DRL cpo_2022_s0: deficit 24.919 %, exact compliance 100.00 %, 7 min
+17:43:35    finished DRL cpo_2023_s0 (7.1 min)  DRL cpo_2023_s0: deficit 31.813 %, exact compliance 100.00 %, 7 min
+17:43:35  figures and summary
+17:43:55  done: <project>/runs\my_new_scenario9_MIQP_DRL

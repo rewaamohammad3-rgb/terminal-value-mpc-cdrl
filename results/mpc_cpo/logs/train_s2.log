@@ -1,0 +1,21 @@
+  agents: no guard_band.json, the cost limit stays at the literal 0.00376
+  ep   0  (plain MPC, default storage values)  val deficit 25.544 %
+  ep   5  train 2016  deficit 25.221 %  w_H 1.17  w_B 1.11  |  val deficit 25.490 %  (best 25.490 @ ep 5)  4 min
+  ep  10  train 2009  deficit 27.451 %  w_H 1.18  w_B 1.09  |  val deficit 25.464 %  (best 25.464 @ ep 10)  7 min
+  ep  15  train 2012  deficit 27.792 %  w_H 1.13  w_B 1.09  |  val deficit 25.486 %  (best 25.464 @ ep 10)  10 min
+  ep  20  train 2005  deficit 23.833 %  w_H 1.15  w_B 1.12  |  val deficit 25.500 %  (best 25.464 @ ep 10)  13 min
+  ep  25  train 2011  deficit 21.344 %  w_H 1.11  w_B 1.06  |  val deficit 25.514 %  (best 25.464 @ ep 10)  16 min
+  ep  30  train 2010  deficit 28.392 %  w_H 1.07  w_B 1.06  |  val deficit 25.505 %  (best 25.464 @ ep 10)  19 min
+  ep  35  train 2008  deficit 22.059 %  w_H 1.10  w_B 1.01  |  val deficit 25.496 %  (best 25.464 @ ep 10)  22 min
+  ep  40  train 2014  deficit 27.355 %  w_H 1.01  w_B 0.95  |  val deficit 25.498 %  (best 25.464 @ ep 10)  25 min
+  ep  45  train 2015  deficit 24.061 %  w_H 1.05  w_B 0.95  |  val deficit 25.481 %  (best 25.464 @ ep 10)  28 min
+  ep  50  train 2014  deficit 27.412 %  w_H 1.08  w_B 0.95  |  val deficit 25.529 %  (best 25.464 @ ep 10)  31 min
+  ep  55  train 2005  deficit 23.762 %  w_H 1.02  w_B 0.96  |  val deficit 25.518 %  (best 25.464 @ ep 10)  34 min
+  ep  60  train 2012  deficit 27.703 %  w_H 1.06  w_B 0.97  |  val deficit 25.519 %  (best 25.464 @ ep 10)  37 min
+training done: best validation 25.464 % at episode 10 (episode 0 = plain MPC 25.544 %)
+TEST 2019 s2: MPC nan % (main run 30.920 %) -> MPC+DRL values 30.857 %, compliance 100.00 %
+TEST 2020 s2: MPC nan % (main run 30.405 %) -> MPC+DRL values 30.382 %, compliance 100.00 %
+TEST 2021 s2: MPC nan % (main run 23.441 %) -> MPC+DRL values 23.377 %, compliance 100.00 %
+TEST 2022 s2: MPC nan % (main run 24.598 %) -> MPC+DRL values 24.498 %, compliance 100.00 %
+TEST 2023 s2: MPC nan % (main run 31.479 %) -> MPC+DRL values 31.352 %, compliance 100.00 %
+done in 39 min

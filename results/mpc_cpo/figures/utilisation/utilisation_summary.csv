@@ -1,0 +1,5 @@
+method,"PV used, % of available","wind used, % of available","renewables used, % of available","demand from PV, %","demand from wind, %","demand from battery, %","demand from fuel cell, %","demand unserved, %","renewable energy to electrolyser, %","renewable energy to battery, %","electrolyser utilisation, % of rating x hours","fuel cell utilisation, % of rating x hours","electrolyser running hours, %","fuel cell running hours, %",battery full cycles
+MPC,95.764,92.386,93.358,20.387,44.594,3.118,3.916,27.985,12.487,4.133,19.607,7.834,25.513,14.392,91.114
+MPC-imitation,95.291,91.42,92.532,20.368,44.516,3.108,3.664,28.345,11.846,4.156,18.434,7.329,25.107,13.528,90.811
+CPO,95.294,91.42,92.533,20.368,44.513,3.107,3.665,28.347,11.851,4.156,18.441,7.332,25.128,13.53,90.806
+MPC+CPO values,95.809,92.485,93.441,20.396,44.646,3.18,3.892,27.887,12.406,4.209,19.494,7.785,25.271,13.895,92.929

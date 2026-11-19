@@ -1,0 +1,17 @@
+  agents: no guard_band.json, the cost limit stays at the literal 0.00376
+  MPC advisor network, trained on the MPC's day-ahead schedules of [2013, 2014, 2015, 2016]
+    advisor epoch   0  MSE vs MPC schedule 0.0995
+    advisor epoch 100  MSE vs MPC schedule 0.0053
+    advisor epoch 200  MSE vs MPC schedule 0.0039
+    advisor epoch 300  MSE vs MPC schedule 0.0035
+    advisor epoch 399  MSE vs MPC schedule 0.0026
+  behaviour cloning on the MPC's day-ahead schedules of [2013, 2014, 2015, 2016]
+    BC epoch   0  action MSE 0.1251
+    BC epoch  50  action MSE 0.0035
+    BC epoch 100  action MSE 0.0027
+    BC epoch 150  action MSE 0.0022
+    BC epoch 200  action MSE 0.0020
+    BC epoch 250  action MSE 0.0019
+    BC epoch 299  action MSE 0.0017
+    ep   0  (imitation policy)  val deficit 25.913 %
+DRL il_2020_s0: deficit 30.689 %, exact compliance 100.00 %, 1 min

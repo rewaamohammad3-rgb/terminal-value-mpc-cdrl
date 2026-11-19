@@ -1,0 +1,38 @@
+11:47:06  MPC + DRL storage values for my_new_scenario9_MIQP_DRL  (results in <project>/mpc_drl_targets\results\my_new_scenario9_MIQP_DRL)
+11:47:06  config: <project>/mpc_drl_targets\config.py
+11:47:06  best DRL method of the main run: CPO (mean deficit 28.501 %)
+11:47:06  training 4 seed(s) with CPO, 60 episodes each (about 42 min per seed)
+11:47:06    started  MPC+CPO values, seed 0
+11:47:06    started  MPC+CPO values, seed 1
+11:47:06    started  MPC+CPO values, seed 2
+11:47:06    started  MPC+CPO values, seed 3
+12:26:18    finished MPC+CPO values, seed 2 (39.2 min)
+12:26:18        training done: best validation 25.464 % at episode 10 (episode 0 = plain MPC 25.544 %)
+12:26:18        TEST 2019 s2: MPC nan % (main run 30.920 %) -> MPC+DRL values 30.857 %, compliance 100.00 %
+12:26:18        TEST 2020 s2: MPC nan % (main run 30.405 %) -> MPC+DRL values 30.382 %, compliance 100.00 %
+12:26:18        TEST 2021 s2: MPC nan % (main run 23.441 %) -> MPC+DRL values 23.377 %, compliance 100.00 %
+12:26:18        TEST 2022 s2: MPC nan % (main run 24.598 %) -> MPC+DRL values 24.498 %, compliance 100.00 %
+12:26:18        TEST 2023 s2: MPC nan % (main run 31.479 %) -> MPC+DRL values 31.352 %, compliance 100.00 %
+12:26:20    finished MPC+CPO values, seed 3 (39.2 min)
+12:26:20        training done: best validation 25.544 % at episode 0 (episode 0 = plain MPC 25.544 %)
+12:26:20        TEST 2019 s3: MPC nan % (main run 30.920 %) -> MPC+DRL values 30.920 %, compliance 100.00 %
+12:26:20        TEST 2020 s3: MPC nan % (main run 30.405 %) -> MPC+DRL values 30.405 %, compliance 100.00 %
+12:26:20        TEST 2021 s3: MPC nan % (main run 23.441 %) -> MPC+DRL values 23.441 %, compliance 100.00 %
+12:26:20        TEST 2022 s3: MPC nan % (main run 24.598 %) -> MPC+DRL values 24.598 %, compliance 100.00 %
+12:26:20        TEST 2023 s3: MPC nan % (main run 31.479 %) -> MPC+DRL values 31.479 %, compliance 100.00 %
+12:26:24    finished MPC+CPO values, seed 1 (39.3 min)
+12:26:24        training done: best validation 25.428 % at episode 10 (episode 0 = plain MPC 25.544 %)
+12:26:24        TEST 2019 s1: MPC nan % (main run 30.920 %) -> MPC+DRL values 30.847 %, compliance 100.00 %
+12:26:24        TEST 2020 s1: MPC nan % (main run 30.405 %) -> MPC+DRL values 30.372 %, compliance 100.00 %
+12:26:24        TEST 2021 s1: MPC nan % (main run 23.441 %) -> MPC+DRL values 23.369 %, compliance 100.00 %
+12:26:24        TEST 2022 s1: MPC nan % (main run 24.598 %) -> MPC+DRL values 24.471 %, compliance 100.00 %
+12:26:24        TEST 2023 s1: MPC nan % (main run 31.479 %) -> MPC+DRL values 31.319 %, compliance 100.00 %
+12:27:56    finished MPC+CPO values, seed 0 (40.8 min)
+12:27:56        training done: best validation 25.418 % at episode 10 (episode 0 = plain MPC 25.544 %)
+12:27:56        TEST 2019 s0: MPC 30.920 % (main run 30.920 %) -> MPC+DRL values 30.857 %, compliance 100.00 %
+12:27:56        TEST 2020 s0: MPC 30.405 % (main run 30.405 %) -> MPC+DRL values 30.357 %, compliance 100.00 %
+12:27:56        TEST 2021 s0: MPC 23.441 % (main run 23.441 %) -> MPC+DRL values 23.342 %, compliance 100.00 %
+12:27:56        TEST 2022 s0: MPC 24.598 % (main run 24.598 %) -> MPC+DRL values 24.471 %, compliance 100.00 %
+12:27:56        TEST 2023 s0: MPC 31.479 % (main run 31.479 %) -> MPC+DRL values 31.312 %, compliance 100.00 %
+12:27:56  figures and tables
+12:28:13  done: <project>/mpc_drl_targets\results\my_new_scenario9_MIQP_DRL
